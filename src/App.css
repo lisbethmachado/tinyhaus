@@ -28,11 +28,23 @@
   color: #61dafb;
 }
 
+.brand {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 450%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media(max-width: 860px) {
+  .brand {
+      font-size: 100%;
   }
 }
