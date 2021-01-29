@@ -1,7 +1,8 @@
-// import logo from './logo.svg';
+// import logo from './assets/brand_logo.png';
 import './App.css';
 import { Card } from './components/Card/index'
 import { Container } from './components/Grid/index';
+// import { Navbar} from './components/Navbar/index';
 
 function App() {
   return (
@@ -22,10 +23,14 @@ function App() {
       </header> */}
 
       {/* <h1>Coming Soon</h1> */}
+      {/* <Navbar /> */}
       <Container>
         <Card>
+        {/* <div className="logo">
+        <img src={logo} alt="tiny haus"/>
+        </div> */}
         <div className="brand">
-          <h1>Coming soon</h1>
+        <h1>Coming soon</h1>
         </div>
         </Card>
       </Container>
