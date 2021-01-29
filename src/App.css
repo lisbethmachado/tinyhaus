@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+/* .bg-image {
+  background-image: url("assets/pro_audio.jpeg"), blur(8px);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

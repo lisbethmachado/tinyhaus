@@ -19,7 +19,7 @@ function App() {
         </a>
       </header> */}
 
-      <h1>Tiny Haus</h1>
+      {/* <h1>Tiny Haus</h1> */}
     </div>
   );
 }
