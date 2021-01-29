@@ -2,7 +2,7 @@
 import './App.css';
 import { Card } from './components/Card/index'
 import { Container } from './components/Grid/index';
-// import { Navbar} from './components/Navbar/index';
+// import { Nav } from './components/Nav/index';
 
 function App() {
   return (
@@ -23,7 +23,7 @@ function App() {
       </header> */}
 
       {/* <h1>Coming Soon</h1> */}
-      {/* <Navbar /> */}
+      {/* <Nav /> */}
       <Container>
         <Card>
         {/* <div className="logo">
