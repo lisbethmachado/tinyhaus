@@ -1,5 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
+import { Card } from './components/Card/index'
+import { Container } from './components/Grid/index';
 
 function App() {
   return (
@@ -20,6 +22,13 @@ function App() {
       </header> */}
 
       {/* <h1>Coming Soon</h1> */}
+      <Container>
+        <Card>
+        <div className="brand">
+          <h1>Coming soon</h1>
+        </div>
+        </Card>
+      </Container>
     </div>
   );
 }
